@@ -1,31 +1,56 @@
 <div align="center">
 
-# CC-Template-Repository
+# Basic Shop
 
-A ... component that does x.
+[![Build Status](https://github.com/ManticoreGamesInc/Bootcamp-Basic-Shop/workflows/CI/badge.svg)](https://github.com/ManticoreGamesInc/Bootcamp-Basic-Shop/actions/workflows/ci.yml?query=workflow%3ACI%29)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/ManticoreGamesInc/Bootcamp-Basic-Shop?style=plastic)
 
-[![Build Status](https://github.com/Core-Team-META/CC-Template-Repository/workflows/CI/badge.svg)](https://github.com/Core-Team-META/CC-Template-Repository/actions/workflows/ci.yml?query=workflow%3ACI%29)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/Core-Team-META/CC-Template-Repository?style=plastic)
-
-![TitleCard](/Screenshots/REPLACE_ME.png)
+![Preview](/Screenshots/Main.png)
 
 </div>
 
+## Finding the Component
+
+This component can be found under the **CoreAcademy** account on Community Content.
+
 ## Overview
 
-Description
+The Basic Shop component is a good starting point for adding a shop to your game. For example, allowing players to purchase a weapon from the shop that is equipped on that player.
 
-## Setup
+The shop comes with a data table that allows for easy adding of additional equipment.
 
-Setup
+## How to use
 
-## Credits
+Add the Basic Shop template to the hierarchy. The template comes set up to work with some basic Core Content weapons that have already been included.
 
-- List
-- of
-- people
+Several custom properties can be changed on the root of the template.
 
-## How to use this Template
+**Note**: Player Storage should be enabled if you want to save the last item equipped on the player.
 
-- Replace every mention of `CC-Template-Repository` with your new repository name.
-- Replace every mention of `REPLACE_ME` with the correct values.
+- **AddTestResource**
+
+	If enabled, then in single player preview, an amount of the resource will be added to help test with purchasing.
+
+- **ResourceKey**
+
+	The resource that should be used when purchasing items from this shop.
+
+- **SaveToStorage**
+
+	If enabled, the last item purchased will be given to the player when they join the game.
+
+- **ShopItems**
+
+	The items to list in the shop.
+
+- **ShopItem**
+
+	The item template that will be used in the shop.
+
+- **SpacingX**
+
+	The spacing between items in the shop on the X axis.
+
+- **SpacingY**
+
+	The spacing between items in the shop on the Y axis.

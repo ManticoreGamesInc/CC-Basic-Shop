@@ -1,0 +1,1 @@
+script.parent.text = "Press " .. Input.GetActionInputLabel("Open/Close Shop") .. " to Open Shop"
