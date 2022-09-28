@@ -487,7 +487,7 @@ Assets {
           }
           Image {
             Brush {
-              Id: 7036591758362434270
+              Id: 1371386132468953074
             }
             Color {
               R: 1
@@ -567,7 +567,7 @@ Assets {
               B: 1
               A: 1
             }
-            Size: 50
+            Size: 38
             Justification {
               Value: "mc:etextjustify:center"
             }
@@ -650,7 +650,7 @@ Assets {
               B: 1
               A: 1
             }
-            Size: 22
+            Size: 19
             Justification {
               Value: "mc:etextjustify:center"
             }
@@ -668,7 +668,7 @@ Assets {
             OutlineColor {
               A: 1
             }
-            OutlineSize: 3
+            OutlineSize: 2
           }
           AnchorLayout {
             SelfAnchor {
@@ -956,12 +956,12 @@ Assets {
       }
     }
     Assets {
-      Id: 7036591758362434270
-      Name: "Fantasy Craft Gem 026"
+      Id: 1371386132468953074
+      Name: "Fantasy Craft Gem 012"
       PlatformAssetType: 9
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
-        AssetId: "UI_Fantasy_Crafting_Gem_026"
+        AssetId: "UI_Fantasy_Crafting_Gem_012"
       }
     }
     Assets {

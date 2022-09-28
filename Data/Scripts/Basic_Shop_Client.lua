@@ -36,6 +36,7 @@ local function on_action_pressed(player, action)
 			WRAPPER.visibility = Visibility.FORCE_OFF
 			UI.SetCanCursorInteractWithUI(false)
 			UI.SetCursorVisible(false)
+			UI.SetReticleVisible(true)
 			is_open = false
 		else
 			check_player_resource()
@@ -43,6 +44,7 @@ local function on_action_pressed(player, action)
 			WRAPPER.visibility = Visibility.INHERIT
 			UI.SetCanCursorInteractWithUI(true)
 			UI.SetCursorVisible(true)
+			UI.SetReticleVisible(false)
 			is_open = true
 		end
 	end
