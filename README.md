@@ -2,8 +2,8 @@
 
 # Basic Shop
 
-[![Build Status](https://github.com/ManticoreGamesInc/Bootcamp-Basic-Shop/workflows/CI/badge.svg)](https://github.com/ManticoreGamesInc/Bootcamp-Basic-Shop/actions/workflows/ci.yml?query=workflow%3ACI%29)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/ManticoreGamesInc/Bootcamp-Basic-Shop?style=plastic)
+[![Build Status](https://github.com/ManticoreGamesInc/CC-Basic-Shop/workflows/CI/badge.svg)](https://github.com/ManticoreGamesInc/CC-Basic-Shop/actions/workflows/ci.yml?query=workflow%3ACI%29)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/ManticoreGamesInc/CC-Basic-Shop?style=plastic)
 
 ![Preview](/Screenshots/Main.png)
 
