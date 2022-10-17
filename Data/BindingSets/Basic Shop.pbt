@@ -2,7 +2,7 @@ Assets {
   Id: 13945201185368413710
   Name: "Basic Shop"
   PlatformAssetType: 29
-  SerializationVersion: 118
+  SerializationVersion: 119
   VirtualFolderPath: "Basic Shop"
   BindingSetAsset {
     Bindings {

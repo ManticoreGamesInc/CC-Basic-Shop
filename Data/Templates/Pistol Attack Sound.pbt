@@ -151,7 +151,7 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 118
+  SerializationVersion: 119
   VirtualFolderPath: "Basic Shop"
   VirtualFolderPath: "Core Content"
   VirtualFolderPath: "Weapons"

@@ -54,6 +54,12 @@ Assets {
             Float: 80
           }
           Overrides {
+            Name: "cs:ShopIcon"
+            AssetReference {
+              Id: 841534158063459245
+            }
+          }
+          Overrides {
             Name: "cs:ResourceKey:tooltip"
             String: "The resource that should be used when purchasing items from this shop."
           }
@@ -80,6 +86,10 @@ Assets {
           Overrides {
             Name: "cs:AddTestResource:tooltip"
             String: "If enabled, then in single player preview, an amount of the resource will be added to help test with purchasing."
+          }
+          Overrides {
+            Name: "cs:ShopIcon:tooltip"
+            String: "The icon for the shop in the UI."
           }
         }
         Collidable_v2 {
@@ -753,6 +763,12 @@ Assets {
               SubObjectId: 6283354373371290148
             }
           }
+          Overrides {
+            Name: "cs:Icon"
+            ObjectReference {
+              SubObjectId: 1157275337532407967
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -978,6 +994,7 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 118
+  SerializationVersion: 119
+  DirectlyPublished: true
   VirtualFolderPath: "Basic Shop"
 }

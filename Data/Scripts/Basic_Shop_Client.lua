@@ -6,6 +6,14 @@ local SHOP_ITEMS = require(ROOT:GetCustomProperty("ShopItems"))
 local RESOURCE_KEY = ROOT:GetCustomProperty("ResourceKey")
 local SPACING_X = ROOT:GetCustomProperty("SpacingX")
 local SPACING_Y = ROOT:GetCustomProperty("SpacingY")
+local SHOP_ICON = ROOT:GetCustomProperty("ShopIcon")
+
+---@type UIImage
+local ICON = script:GetCustomProperty("Icon"):WaitForObject()
+
+if(SHOP_ICON ~= nil) then
+	ICON:SetImage(SHOP_ICON)
+end
 
 local offset_x = -175
 local offset_y = 50

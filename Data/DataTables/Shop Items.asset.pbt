@@ -2,7 +2,7 @@ Assets {
   Id: 11738031392067451640
   Name: "Shop Items"
   PlatformAssetType: 31
-  SerializationVersion: 118
+  SerializationVersion: 119
   VirtualFolderPath: "Basic Shop"
   DataTableAsset {
     Assets {
