@@ -23,7 +23,7 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:AddTestResource"
-            Bool: true
+            Bool: false
           }
           Overrides {
             Name: "cs:ResourceKey"
