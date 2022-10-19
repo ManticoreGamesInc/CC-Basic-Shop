@@ -9,6 +9,12 @@
                                              |_|
 ----------------------------------------------------
 
+====
+NOTE
+====
+
+If the Dependent folders are empty in Project Content under Imported Content for this component, save and reload the project to fix it.
+
 The Basic Shop component is a good starting point for adding a shop to your game. For example, allowing players
 to purchase a weapon from the shop that is equipped on that player.
 
